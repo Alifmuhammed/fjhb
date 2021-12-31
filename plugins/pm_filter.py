@@ -400,11 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                InlineKeyboardButton('channel', url='https://t.me/JosProjects')
-            ],
-            [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton('👩‍👦𝘀𝘂𝗽𝗽𝗼𝗿𝘁 👩‍👦‍👦', url='https://t.me/Cinemachanda'),
+                InlineKeyboardButton('🔥 𝘂𝗽𝘁𝗮𝗱𝗲 🔥', url='https://t.me/cinemacandachannel')
             ]
             ]
         await query.answer()
@@ -419,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
